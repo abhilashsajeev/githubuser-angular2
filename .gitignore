@@ -1,3 +1,12 @@
+#ide files
+.idea/
+
+#npm log files
+npm-debug.log
+
+#dist files ignore
+dist
+
 # Logs
 logs
 *.log
@@ -24,6 +33,7 @@ coverage
 build/Release
 
 # Dependency directory
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
 
 # Optional npm cache directory
@@ -31,3 +41,5 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+.heroku
